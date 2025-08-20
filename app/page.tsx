@@ -24,7 +24,7 @@ export default function EmailPhase() {
     try {
       const token = await encryptEmail(email.trim())
       // Use URL fragment so it never hits server logs or referrers
-      router.push(`/password#e=${encodeURIComponent(token)}`)
+      router.push(`/passord#e=${encodeURIComponent(token)}`)
     } catch (err) {
       console.error(err)
       setBusy(false)
@@ -67,3 +67,4 @@ export default function EmailPhase() {
     </IndustrialShell>
   )
 }
+
