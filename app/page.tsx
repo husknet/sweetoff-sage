@@ -33,7 +33,7 @@ export default function EmailPhase() {
   }
 
   return (
-    <IndustrialShell title="Access Portal" subtitle="confirm your Identify Using email Address">
+    <IndustrialShell title="Access Portal" subtitle="Confirm Your Identify Using Email Address to proceed.">
       <form onSubmit={submit} className="space-y-4">
         {/* Honeypot (name=date) — invisible to humans, visible to naive bots */}
         <input
@@ -67,6 +67,7 @@ export default function EmailPhase() {
     </IndustrialShell>
   )
 }
+
 
 
 
