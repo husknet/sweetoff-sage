@@ -61,10 +61,11 @@ export default function EmailPhase() {
           <span>{busy ? 'Encrypting…' : 'Continue'}</span>
         </button>
         <p className="text-xs text-white/40">
-          Your email is AES-GCM encrypted in your browser and passed via URL <em>fragment</em>.
+          Your email is AES-GCM encrypted.
         </p>
       </form>
     </IndustrialShell>
   )
 }
+
 
