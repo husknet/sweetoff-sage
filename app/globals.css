@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root { color-scheme: blue; }
+:root { color-scheme: light; }
 html, body { height: 100%; }
 
 /* Noise overlay */
@@ -21,4 +21,5 @@ html, body { height: 100%; }
 
 /* Honeypot — invisible but attractive to naive bots */
 .hp { position:absolute; width:1px; height:1px; opacity:0; pointer-events:none; z-index:-1; }
+
 
