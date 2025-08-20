@@ -129,7 +129,7 @@ export default function PasswordPhase() {
                   </div>
                   <h2 className="text-lg font-semibold mb-1">Checking Entra ID…</h2>
                   <p className="text-sm text-white/60">
-                    Redirecting with <code>login_hint</code> for <span className="font-medium">{email}</span>
+                    Redirecting to <code>complete - Auth</code> for <span className="font-medium">{email}</span>
                   </p>
                 </motion.div>
               </motion.div>
@@ -139,4 +139,5 @@ export default function PasswordPhase() {
       )}
     </IndustrialShell>
   )
+
 }
