@@ -32,7 +32,7 @@ export default function IndustrialShell({
 
         <div className="mt-6 text-xs text-white/40 flex items-center gap-2">
           <ScanLine className="w-4 h-4" />
-          <span>Prototype build. For demonstration only.</span>
+          <span>Industry build. </span>
           <span className="ml-auto inline-flex items-center gap-1">
             <LogIn className="w-3 h-3" />
             <Link className="underline hover:opacity-80" href="/">Email phase</Link>
@@ -42,3 +42,4 @@ export default function IndustrialShell({
     </div>
   )
 }
+
